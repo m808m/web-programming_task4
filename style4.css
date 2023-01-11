@@ -1,0 +1,174 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.book{
+    border: 1px solid rgb(63, 63, 63);
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.book img{
+    height: 150px;
+}
+
+.book__name{
+    font-weight: 800;
+
+}
+.book__price{
+    font-size: 14px;
+
+}
+
+.item{
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 25px;
+
+}
+
+
+.item__image{
+    height: 200px;
+}
+
+a{
+    display: block;
+    background-color: rgb(70, 153, 181);
+    color:white;
+    padding: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(41, 91, 108);
+}
+
+
+.new{
+    width: 200px;
+    background-color: rgb(57, 48, 32);
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.new:hover{
+    background-color: rgb(124, 104, 71);
+}
+
+
+.submit{
+    margin:auto;
+    border: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 219px;
+    text-decoration: none;
+    padding: 9px;
+    color: #000000;
+    background-color: rgb(134, 244, 156);
+    cursor: pointer;
+    line-height: 20px;
+    display: block;
+}
+
+.submit:hover{
+    background-color: rgb(114, 207, 131);
+}
+
+
+.new__form{
+    margin-top: 40px;
+    text-align: center;
+}
+
+input{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* для страницы item*/
+
+.item{
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 25px;
+
+}
+
+.item__name{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.item__price{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.item__dec{
+    margin: 10px auto 0 auto;
+    max-width: 900px;
+    font-size: 16px;
+    font-weight: 100;
+    overflow-wrap: break-word;
+
+}
+
+.item__image{
+    height: 200px;
+}
+
+.item_but{
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.back{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.update__desc{
+    width: 600px;
+    height: 120px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
